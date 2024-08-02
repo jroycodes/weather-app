@@ -4,7 +4,45 @@
   box-sizing: border-box;
 }
 
-body{
-    background-color: lightblue;
-    font-family: Arial, Helvetica, sans-serif;
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+
+  h1 {
+    text-align: center;
+  }
+
+  .search-div {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    text-align: left;
+
+    input {
+      padding: 1rem 3rem 1rem 1rem;
+    }
+
+    button {
+      padding: 1rem 2rem;
+    }
+
+    input,
+    button {
+      border-radius: 4rem;
+      border: none;
+    }
+  }
+
+  #contentDisplay {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 2rem 1rem;
+    margin-bottom: 2rem;
+    border-radius: 2rem;
+    min-width: 23.125rem;
+    max-height: 30rem;
+  }
 }
