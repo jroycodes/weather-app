@@ -10,8 +10,12 @@
   align-items: center;
   gap: 2rem;
 
-  h1 {
+  h1{
     text-align: center;
+  }
+
+  .title {
+    margin-top: 8rem;
   }
 
   .search-div {
@@ -22,6 +26,11 @@
 
     input {
       padding: 1rem 3rem 1rem 1rem;
+    }
+
+    input:focus{
+      outline: none;
+      border: none;
     }
 
     button {
