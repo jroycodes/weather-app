@@ -19,8 +19,8 @@ async function queryInput() {
     location.textContent = `✈  ${weatherInfo.address}`;
     temperature.textContent = `${weatherInfo.temperature}°C`;
     feelsLike.textContent = `${weatherInfo.conditions}`;
-    winds.textContent = `${weatherInfo.wind}`;
-    humidty.textContent = `${weatherInfo.humidity}`;
+    winds.textContent = `${weatherInfo.wind} km/h`;
+    humidty.textContent = `${weatherInfo.humidity} % humidity`;
 
     container.appendChild(location);
     container.appendChild(temperature);
